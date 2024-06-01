@@ -27,7 +27,7 @@ function CountDownTimer() {
             if (numHours === 0 && numMinutes === 0 && numSeconds === 0) {
                 setIsRunning(false);
                 setTimeout(() => {
-                    setTime({hours: '', minutes: '', seconds: ''});
+                    setTime({ hours: '', minutes: '', seconds: '' });
                     clearInterval(timerRef.current);
                 }, 500);
             }
@@ -78,7 +78,7 @@ function CountDownTimer() {
         if (isInputInvalid) {
             return;
         }
-        setTime({hours: '', minutes: '', seconds: ''});
+        setTime({ hours: '', minutes: '', seconds: '' });
         setIsRunning(false);
     };
 
@@ -121,10 +121,10 @@ function CountDownTimer() {
                 />
             </div>
             <div className={styles.container_buttons}>
-                {!isRunning && 
-                    <button 
-                        className={`${styles.btn} ${styles.start}`} 
-                        disabled={isInputInvalid} 
+                {!isRunning &&
+                    <button
+                        className={`${styles.btn} ${styles.start}`}
+                        disabled={isInputInvalid}
                         onClick={() => {
                             setIsRunning(true);
                             startHandler();
