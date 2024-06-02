@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body {
+/* body {
     height: 85vh;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ body {
     justify-content: center;
     gap: 20px;
     font-family: sans-serif;
-}
+} */
 
 .container_title {
     padding: 10px 40px;
