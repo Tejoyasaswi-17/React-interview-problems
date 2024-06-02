@@ -3,6 +3,7 @@ import Counter from './counter';
 import CountDownTimer from './countdown-timer';
 import Carousal from './carousal';
 import FileDropDown from './file-drop-down';
+import Pagination from './pagination';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <CountDownTimer /> */}
       {/* <Counter /> */}
       {/* <Carousal /> */}
-      <FileDropDown />
+      {/* <FileDropDown /> */}
+      <Pagination />
     </div>
   );
 }
