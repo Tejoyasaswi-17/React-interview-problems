@@ -1,0 +1,106 @@
+* {
+    font-family: Arial;
+}
+
+.container {
+    background-color: #24232b;
+    padding: 24px;
+}
+
+.heading {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #2a8b8b;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.copy_button {
+    font-weight: 10px;
+}
+
+.character_count {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.character_count span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-bottom: 24px;
+}
+
+.checkboxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: Arial;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.checkboxes div {
+    display: flex;
+    padding-bottom: 25px;
+    gap: 5px;
+}
+
+.password_strength {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.password_strength span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.generate_button {
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.success_toast,
+.failure_toast {
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 45%;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.failure_toast {
+    background-color: red;
+}
