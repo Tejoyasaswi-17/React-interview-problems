@@ -1,0 +1,43 @@
+.container {
+    margin: 10px;
+}
+
+.folder {
+    margin-top: 6px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 2px;
+    width: 300px;
+}
+
+.folder > span {
+    margin: 0 5px;
+}
+
+.folder button {
+    padding: 2px;
+}
+
+.folder div {
+    padding: 2px;
+    gap: 5px;
+    display: flex;
+}
+
+.input_container {
+    margin: 10px 0 0 10px;
+}
+
+.input_container input {
+    margin-left: 5px;
+    width: 270px;
+    height: 15px;
+    padding: 5px;
+}
+
+.child_container {
+    padding-left: 20px;
+}
