@@ -1,0 +1,9 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+}
+
+.page h1 {
+    margin: 40px 0 40px 0;
+}
