@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.tabs {
+    margin-top: 50px;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.tabs:last-child {
+    width: 10%;
+}
+
+.content {
+    margin-bottom: 10px;
+}
