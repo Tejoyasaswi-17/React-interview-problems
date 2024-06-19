@@ -1,0 +1,21 @@
+.problem_statement {
+    border: 1px solid lightgray;
+    padding: 45px;
+    margin-top: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.problem_statement h2 {
+    margin-bottom: 10px;
+}
+
+.problem_statement button {
+    background-color: lightgray;
+    border: none;
+    width: 45%;
+    border-radius: 5px;
+    padding: 10px 50px;
+    margin: 10px;
+    cursor: pointer;
+}
